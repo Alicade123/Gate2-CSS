@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gate2 - Alicade - CSS</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <body>
     <div class="container">
       <header class="header">
-        <h1 class="title">FeWo-direkt</h1>
+        <h1 class="title">FeWo-direkt<span class="r">®️</span></h1>
         <nav class="nav">
           <ul class="nav-list">
-            <button>Download the app</button>
+            <button class="download-app">Download the app <i class="fa fa-download" aria-hidden="true"></i></button>
             <li><a href="#Travel Planner">Travel Planner</a></li>
             <li>
               <a href="#Register accommodation">Register accommodation</a>
@@ -25,21 +25,27 @@
       </header>
       <main class="main-content">
         <section class="section-one">
-          <h1 class="hero-title">All good, you book with FeWo-direkt</h1>
-          <div class="hero-description">
-            <div class="location">
-              <input type="text" placeholder="Where do you want to go?" />
+          <h1 class="hero-title">All good, you book with FeWo-direkt</h1><br>
+          <div class="hero-inputs">
+            <div class="inputbox">
+              <i class="fa fa-map-marker"></i>
+              <label for="location">Where should we go?</label>
+              <input type="text" placeholder="Where should we go?" value="Germany" />
             </div>
-            <div class="date">
-              <input type="text" placeholder="Check-in date" />
+            <div class="inputbox">
+              <i class="fa fa-calendar" ></i>
+              <input type="date" placeholder="Date" />
             </div>
-            <div class="guest">
-              <input type="text" placeholder="Number of guests" />
+            <div class="inputbox">
+              <i class="fa fa-user"></i>
+              <label for="guests">Guests</label>
+              <input type="text" placeholder="2 travelers" />
             </div>
+            <button class="seek">seek</button>
           </div>
         </section>
         <section class="section-two">
-          <div>
+          <div class="section-two-notification">
             <h2 class="section-title">
               Sign in to send a message to the host and get more details about a
               listing.

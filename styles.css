@@ -1,13 +1,124 @@
 body {
-  /* font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
-  text-align: center;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
 }
-h1 {
-  color: #007bff;
+.container {
 }
-p {
-  font-size: 16px;
-} */
+.header {
+  height: 80px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  cursor: pointer;
+  padding-right: 5px;
+}
+.title {
+  color: rgb(50, 101, 187);
+  padding: 0 0 0 140px;
+  font-family: arial, sans-serif;
+}
+.r {
+  font-size: 10px;
+  margin-top: -10px;
+}
+.nav-list {
+  margin-left: 250px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.download-app {
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+.download-app i {
+  color: blue;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.nav-list li a {
+  justify-content: center;
+  text-decoration: none;
+  padding-left: 25px;
+  color: rgb(27, 25, 25);
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.nav-list li a:hover {
+  color: rgb(27, 31, 228);
+}
+.section-one {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background-image: url("image.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: relative;
+}
+.hero-title {
+  color: white;
+  font-family: "Times New Roman", Times, serif, serif;
+  font-size: 36px;
+  margin-left: 70px;
+}
+.hero-inputs {
+  display: flex;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin-right: 10px;
+}
+
+.inputbox {
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.inputbox i {
+  color: gray;
+}
+.inputbox input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+.inputbox input::placeholder {
+  color: gray;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+.seek {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+}
+
+/* Section 3*/
+.section-two {
+  width: 100%;
+  height: 70vh;
+}
+.section-two-notification {
+  background-color: rgb(27, 35, 59);
+}
+.section-two-notification p {
+  color: white;
+}
+.section-two-notification button {
+  background-color: blue; 
+}
