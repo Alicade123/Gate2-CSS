@@ -335,3 +335,25 @@ body {
 }
 
 /* section 6 */
+.section-six {
+  margin: 30px 13%;
+
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.section-six .features-item {
+  display: flex;
+}
+.section-sex_image {
+  height: 300px;
+  width: 200px;
+  flex: 1;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.features-seven {
+  display: flex;
+}
