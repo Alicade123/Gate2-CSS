@@ -2,8 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.container {
-}
+
 .header {
   height: 80px;
   display: flex;
@@ -13,7 +12,7 @@ body {
   padding-right: 5px;
 }
 .title {
-  color: rgb(50, 101, 187);
+  color: rgb(114, 114, 227);
   padding: 0 0 0 140px;
   font-family: arial, sans-serif;
 }
@@ -356,4 +355,113 @@ body {
 
 .features-seven {
   display: flex;
+  margin: 30px 13%;
+}
+.section_seven_feature-title {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: arial, sans-serif;
+}
+.feature-seven-title {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+.fa.fa-money-bill-wave,
+.fa.fa-mug-hot,
+.fa.fa-lock {
+  font-size: 100px;
+  color: rgb(70, 68, 68);
+}
+
+.rent-accomodation {
+  background-image: url("./assets/images/section7_imageB1.png");
+  background-position: center;
+  background-size: cover;
+  margin: 10px 13%;
+  width: auto;
+  height: auto;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+}
+.rent-accomodation-div {
+  margin: 30px 20px;
+  background-color: white;
+  color: black;
+  width: 25%;
+  height: auto;
+  padding: 20px 10px 30px 20px;
+  border: none;
+  border-radius: 15px;
+}
+.rent-accomodation-div h1 {
+  margin: 0 auto;
+  font-size: 32px;
+  padding: 10px;
+  font-weight: bold;
+}
+.rent-accomodation-div article {
+  padding: 10px;
+}
+.rent-accomodation-div button {
+  color: white;
+  background-color: rgb(69, 69, 255);
+  padding: 15px;
+  border-radius: 25px;
+  font-weight: 600;
+  border: none;
+}
+
+.whatFeWo-direkt {
+  margin: 30px 13%;
+}
+.whatFeWo-direkt h2 {
+  font-weight: bold;
+  font-size: 26px;
+  color: rgb(47, 47, 47);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.whatFeWo-direkt p {
+  font-family: "arial", serif;
+  font-size: 16px;
+  word-spacing: 0.1em;
+  color: rgb(52, 51, 51);
+}
+.discription-link {
+  text-decoration: none;
+}
+.footer {
+  margin: 30px 13%;
+}
+.footer-title {
+  color: rgb(114, 114, 227);
+}
+.footer-content {
+  display: flex;
+
+  color: rgb(32, 32, 32);
+}
+.Explore.FeWo-direkt {
+  padding: 0;
+  margin: 0;
+}
+.footer-section-title {
+  font-size: 16px;
+  margin: 10px 13%;
+}
+.footer-content ul {
+  list-style: none;
+}
+.footer-content ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+hr {
+  color: grey;
+  opacity: 0.4;
+}
+
+.copyright {
+  color: rgb(62, 62, 62);
 }
