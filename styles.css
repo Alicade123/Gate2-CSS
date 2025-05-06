@@ -176,7 +176,7 @@ body {
 .section-three {
   margin-top: 30px;
   width: auto;
-  height: 70vh;
+  height: 80vh;
 }
 .section-three-title {
   margin: 30px 13% 0 13%;
@@ -232,3 +232,106 @@ body {
   margin: 10px 20px;
   color: rgb(27, 35, 59);
 }
+/* Section Four */
+.section-four {
+}
+.section-four .features {
+  display: flex;
+  margin: 10px 13%;
+}
+.section-four .features div img {
+  border: none;
+  border-radius: 20px;
+  margin-right: 20px;
+  height: auto;
+  width: 650px;
+}
+.section-four-title {
+  margin: 10px;
+  color: black;
+  font-size: 14px;
+}
+.feature-four-description {
+  margin: 10px;
+  color: rgb(49, 44, 44);
+  font-weight: bold;
+  font-family: arial, serif;
+}
+
+/* Section 5*/
+.section5-title,
+.section5-description,
+.section5-description2 {
+  margin: 10px 13%;
+}
+.section5-title {
+  font-weight: bold;
+  margin-top: 30px;
+  font-family: arial, sans-serif;
+}
+.section5-description {
+}
+.section5-description2 {
+}
+
+.section-three {
+  margin-top: 30px;
+  width: auto;
+  height: 80vh;
+}
+.section-three-title {
+  margin: 30px 13% 0 13%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.section-three-stitle {
+  margin-left: 13%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(27, 35, 59);
+}
+.section-five-features {
+  margin-left: 150px;
+  display: flex;
+}
+.section-five-image {
+  height: auto;
+  width: 300px;
+  margin-left: 20px;
+}
+.section-five-image {
+  border: none;
+  border-radius: 15px;
+}
+.section-five-rate {
+  display: flex;
+  margin: 10px 20px;
+}
+.section-five-rate button {
+  background-color: rgb(12, 47, 10);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 7px;
+}
+.section-five-features p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 20px;
+}
+.feature-location,
+.feature-description {
+  font-size: 14px;
+  margin: 10px 20px;
+}
+.feature-price {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 20px;
+  color: rgb(27, 35, 59);
+}
+
+/* section 6 */
